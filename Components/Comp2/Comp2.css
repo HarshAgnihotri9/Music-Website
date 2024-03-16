@@ -1,0 +1,76 @@
+
+
+.mainn{
+    background-color: rgb(29, 28, 28);
+    
+    display: flex;
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+
+}
+
+
+
+.mainn input{
+    color: white;
+    background-color: rgb(29, 28, 28);
+border: 1px solid white;
+  margin-top: 10px;
+  width: 50vw;
+  margin-left: 20vw;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.mainn button{
+   margin-top: 10px;
+   color: rgb(188, 182, 182);
+   background-color: black;
+   margin-left: 20px;
+   padding: 10px 20px;
+   margin-bottom: 10px;
+   border-radius:10px ;
+   -webkit-border-radius:10px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+}
+.mainn button:hover{
+    color: white;
+}
+@media (max-width:534px){
+    .mainn input{
+          margin-left: 10vw;
+    }        
+}
+
+@media (max-width:407px){
+  .mainn{
+
+    display: none;
+
+  }
+}
+
+@media (max-width:350px){
+    .mainn input{
+        margin-left: 0vw;
+        /* width:10vw; */
+  }        
+}
+@media (max-width:350px){
+    .mainn input{
+        width:40vw;
+        margin-left: 5vw;
+     
+    }
+    .main button {
+        font-size: 10px;
+        padding: 5px;
+
+    }
+}

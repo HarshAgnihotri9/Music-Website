@@ -1,0 +1,32 @@
+.cont{
+       height:100vh;
+       /* width: 100vw; */
+       background-color: black;
+    background-color: rgb(29, 28, 28);
+    /* overflow:; */
+
+}
+.muusic{
+         position:sticky;
+/* top: 100vh; */
+bottom: 0;
+/* top: 96vh; */
+/* top: calc(100vh-50px);
+ */
+/* top: 100; */
+/* top: 100vh; */
+}
+@media (max-width:900px){
+    .muusic{
+        position:sticky;
+/* top: 100vh; */
+bottom: 0;
+top: 96vh;
+/* top: calc(100vh-50px);
+*/
+/* top: 100; */
+/* top: 100vh; */
+}
+
+}
+

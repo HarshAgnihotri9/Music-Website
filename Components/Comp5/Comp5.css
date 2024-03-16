@@ -1,0 +1,19 @@
+.mainnnnn{
+    display: flex;
+    overflow-x:scroll;
+    gap:2vw;
+    /* margin-top: 40px; */
+    /* flex-wrap: wrap; */
+    background: rgb(27, 27, 27);
+    
+}
+
+.mainnnnn::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.mainnnnn{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

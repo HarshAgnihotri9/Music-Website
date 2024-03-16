@@ -1,0 +1,94 @@
+.mainnn{
+display: flex;
+/* justify-content: center; */
+align-items: center;
+gap: 3.5vw;
+background-color: rgb(29, 28, 28);
+height: 50px;
+padding-left: 1.5vw;
+/* padding-right: 10vw; */
+/* margin-right: 10vw; */
+/* margin-bottom:150px; */
+overflow-x:scroll;
+/* margin-bottom: 50px; */
+}
+
+.mainnn::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.mainnn{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.mainnn li{
+    list-style: none;
+    /* overflow:scroll; */
+  margin-bottom: 15px;
+  text-wrap: nowrap;
+
+}
+.mainnn li:active{
+  color: white;
+}
+
+.mainnn li a{
+    /* font-size: 1.2vw; */
+    font-size: 20px;
+    
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: rgb(193, 183, 183);
+    /* overflow: hidden; */
+}
+
+.mainnn li a:hover{
+    color: white;
+     
+}
+.mainnn li a:active{
+  color: white;
+}
+
+
+/* .mainnn li a:visited{
+  color: white;
+
+} */
+
+.left img{
+position: relative;
+/* top: 20px; */
+
+}
+.rightt img{
+    position: relative;
+    /* top: 20px; */
+    left: 65vw;
+}
+
+@media (max-width:800px){
+  .mainnn{
+    gap :3vw
+  }
+  /* .main li{
+    margin-right: 5vw;
+  } */
+   .Last{
+    /* margin-right: 15vw; */
+   }
+}
+
+@media (max-width:1400px){
+.Last{
+    /* margin-right: 15vw; */
+}
+}
+
+@media (max-width:800px){
+ .mainnn  li {
+  margin-top: 25px;
+ }
+}

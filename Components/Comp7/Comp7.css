@@ -1,0 +1,37 @@
+.mainnnnnnn{
+    background: rgb(27, 27, 27);
+    display: flex;
+    gap: 2vw;
+    /* margin-bottom: 50px; */
+    overflow-x: scroll;
+    padding-left: 3vw;
+
+
+}
+.mainnnnnnn::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.mainnnnnnn{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.heading{
+    background: rgb(27, 27, 27);
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-left: 2vw
+    ; */
+    padding-left: 3vw;
+}
+
+@media (max-width:700px){
+
+.heading{
+padding-top: 30px;
+font-size: 20px;
+}
+}

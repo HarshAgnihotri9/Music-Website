@@ -1,0 +1,19 @@
+.Render{
+    display: flex;
+    overflow: scroll;
+    gap: 2.5vw;
+    background:  rgb(29, 28, 28);
+}
+.Render::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Render{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.heading{
+  padding-top: 2vw;
+}
